@@ -1,0 +1,54 @@
+
+.starship-list-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.starship-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.starship-card {
+    background-color: #20232a;
+    color: #61dafb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px);
+    text-decoration: none;
+}
+
+.starship-card h3,
+.starship-card p {
+    margin: 0;
+    color: #61dafb;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination button {
+    background-color: #61dafb;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    color: #20232a;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    background-color: #bbb;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    color: #61dafb;
+}

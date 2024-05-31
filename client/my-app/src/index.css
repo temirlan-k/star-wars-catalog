@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header-sw{
+  padding-bottom: 2rem;
+}
+body {
+  font-family: 'Star Wars', sans-serif;
+}

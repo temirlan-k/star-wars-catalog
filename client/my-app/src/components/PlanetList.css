@@ -1,0 +1,35 @@
+.topic{
+    padding-bottom: 2rem;
+}
+.planet-list-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.planet-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.planet-card {
+    background-color: #20232a;
+    color: #61dafb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px);
+}
+
+@media screen and (max-width: 768px) {
+    .planet-card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .planet-card {
+        width: 100%;
+    }
+}

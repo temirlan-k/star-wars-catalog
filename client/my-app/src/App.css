@@ -1,0 +1,35 @@
+.app {
+  text-align: center;
+}
+
+.app-header {
+  background-color: #20232a;
+  padding: 20px;
+  color: white;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav{
+  padding-top: 1rem;
+}
+
+main {
+  padding: 20px;
+}
