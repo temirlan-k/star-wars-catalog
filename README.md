@@ -1,6 +1,6 @@
 # StarWars Project
 
-This project is a web application that provides detailed information about characters, planets, and starships from the Star Wars universe. It is built with a React frontend and a Node.js backend.
+This project is a web application that provides detailed information about characters, planets, and starships from the Star Wars universe. It is built with a MERN stack.
 
 ## Table of Contents
 
@@ -94,7 +94,7 @@ To start the application, run the following commands in separate terminals:
 1. Start the server:
     ```bash
     cd server
-    npm start
+    node server.js
     ```
 
 2. Start the client:
@@ -103,14 +103,14 @@ To start the application, run the following commands in separate terminals:
     npm start
     ```
 
-The application will be available at `http://localhost:3000`.
+The application will be available at `http://localhost:3000` - front and `http://localhost:5000` - back.
 
 ## API Endpoints
 
 The backend API provides the following endpoints:
 
-- `GET /api/person`: Get a list of all characters.
-- `GET /api/person/:id`: Get details of a specific character.
+- `GET /api/people`: Get a list of all characters.
+- `GET /api/people/:id`: Get details of a specific character.
 - `GET /api/planets`: Get a list of all planets.
 - `GET /api/planets/:id`: Get details of a specific planet.
 - `GET /api/starships`: Get a list of all starships.
